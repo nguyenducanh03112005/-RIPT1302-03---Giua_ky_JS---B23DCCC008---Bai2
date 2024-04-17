@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+	text-align: center;
+	background: url('2.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+  .timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  input[type="number"] {
+    width: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  #message {
+    margin-top: 20px;
+    font-size: 24px;
+    color: red;
+  }
+.boxA{
+    background-color: green;
+    color: white;
+}
+.boxB{
+    background-color: red;
+    color: black;
+}
+.TA{
+    color: white;
+}
